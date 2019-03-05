@@ -5,7 +5,7 @@ class TreeNode {
 public:
 	char data;// store operand or operator
 	TreeNode* rchild;//pointer to right child
-
+        TreeNode *lchild;
 	friend class Node;
 	friend class Stack;
 	TreeNode() {    //constructor used to set leftchild and rightchild to NULL and data to *
